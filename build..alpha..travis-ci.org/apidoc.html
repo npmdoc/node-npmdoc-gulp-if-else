@@ -61,12 +61,49 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-if-else">module gulp-if-else</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-if-else.gulp-if-else">
+            function <span class="apidocSignatureSpan"></span>gulp-if-else
+            <span class="apidocSignatureSpan">(condition, callback, elseCallback)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-if-else" id="apidoc.module.gulp-if-else">module gulp-if-else</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-if-else.gulp-if-else" id="apidoc.element.gulp-if-else.gulp-if-else">
+        function <span class="apidocSignatureSpan"></span>gulp-if-else
+        <span class="apidocSignatureSpan">(condition, callback, elseCallback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ifElse(condition, callback, elseCallback){
+
+  if(typeof callback != &#x27;function&#x27;) {
+    throw new gutil.PluginError(
+      &#x27;gulp-if-else&#x27;, &#x27;&#x22;callback&#x22; argument must be a function.&#x27;
+    );
+  }
+
+  if(condition) {
+    return callback();
+  }
+
+  return typeof elseCallback == &#x27;function&#x27;
+    ? elseCallback()
+    : gutil.noop();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
