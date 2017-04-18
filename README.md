@@ -1,9 +1,14 @@
-# api documentation for  [gulp-if-else (v1.0.3)](https://github.com/Nicolab/gulp-if-else)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-if-else.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-if-else) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-if-else.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-if-else)
+# npmdoc-gulp-if-else
+
+#### api documentation for  [gulp-if-else (v1.0.3)](https://github.com/Nicolab/gulp-if-else)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-if-else.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-if-else) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-if-else.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-if-else)
+
 #### [Gulp plugin] Conditional task with "if" callback and "else" callback (optional): gulp.src(source).pipe( ifElse(condition, ifCallback, elseCallback) )
 
-[![NPM](https://nodei.co/npm/gulp-if-else.png?downloads=true)](https://www.npmjs.com/package/gulp-if-else)
+[![NPM](https://nodei.co/npm/gulp-if-else.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-if-else)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-if-else/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-if-else_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-if-else/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-if-else/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-if-else/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-if-else/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-if-else/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-if-else/build/screenCapture.npmPackageListing.svg)
 
@@ -56,13 +61,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "nicolab",
-            "email": "dev@nicolab.net"
+            "name": "nicolab"
         }
     ],
     "name": "gulp-if-else",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Nicolab/gulp-if-else.git"
@@ -73,16 +76,6 @@
     "version": "1.0.3"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-if-else](#apidoc.module.gulp-if-else)
-
-
-
-# <a name="apidoc.module.gulp-if-else"></a>[module gulp-if-else](#apidoc.module.gulp-if-else)
 
 
 
