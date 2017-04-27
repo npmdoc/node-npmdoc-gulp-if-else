@@ -1,6 +1,6 @@
 # npmdoc-gulp-if-else
 
-#### api documentation for  [gulp-if-else (v1.0.3)](https://github.com/Nicolab/gulp-if-else)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-if-else.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-if-else) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-if-else.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-if-else)
+#### basic api documentation for  [gulp-if-else (v1.0.3)](https://github.com/Nicolab/gulp-if-else)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-if-else.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-if-else) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-if-else.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-if-else)
 
 #### [Gulp plugin] Conditional task with "if" callback and "else" callback (optional): gulp.src(source).pipe( ifElse(condition, ifCallback, elseCallback) )
 
@@ -73,7 +73,8 @@
     "scripts": {
         "test": "mocha ./test/test.js --reporter spec"
     },
-    "version": "1.0.3"
+    "version": "1.0.3",
+    "bin": {}
 }
 ```
 
